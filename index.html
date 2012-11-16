@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Oblique Fortunes by mattonrails</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>Oblique Fortunes</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/mattonrails/oblique-fortunes">View the Project on GitHub <small>mattonrails/oblique-fortunes</small></a></p>
+        <ul>
+          <li><a href="https://github.com/mattonrails/oblique-fortunes/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mattonrails/oblique-fortunes/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mattonrails/oblique-fortunes">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Receive inspriration from Eno all day, whilst in the stark environs of the
+command line!</p>
+
+<h2>Say what?</h2>
+
+<p>This project contains <a href="http://en.wikipedia.org/wiki/Fortune_(Unix)" title="Fortune (Unix)">fortune</a> files comprised of Brian Eno's <a href="http://en.wikipedia.org/wiki/Oblique_Strategies" title="Oblique_Strategies">Oblique
+Strategies</a>.</p>
+
+<ol>
+<li>You must have the <code>fortune</code> program installed</li>
+<li>Both files must live in a place <code>fortune</code> expects</li>
+<li>You should make the call to <code>fortune</code> on "login" from a config file</li>
+</ol><h2>Instructions</h2>
+
+<pre><code>brew install fortune
+git clone git://github.com/mattonrails/oblique-fortunes.git
+cd oblique-fortunes
+cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
+echo 'if command fortune &gt;/dev/null; then fortune oblique; fi' &gt;&gt; ~/.bash_profile
+</code></pre>
+
+<h2>Thanks</h2>
+
+<p>To Brian Eno for the Oblique Strategies, and of course his music.</p>
+
+<p>To <a href="https://github.com/zeke" class="user-mention">@zeke</a> for inspiration and providing <a href="https://github.com/zeke/oblique-strategies" title="zeke/oblique-strategies">the strategies</a> in an easy to
+process format.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/mattonrails">mattonrails</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
