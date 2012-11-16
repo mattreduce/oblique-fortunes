@@ -15,6 +15,13 @@ Strategies][2].
 It will display a random Oblique Strategy before the prompt in new Terminal
 windows.
 
+## Examples
+
+- "Turn it upside down"
+- "Don't be afraid of things because they're easy to do"
+- "Accept advice"
+- "Not building a wall but making a brick"
+
 ## Instructions
 
     brew install fortune
