@@ -12,8 +12,8 @@ Strategies][2].
 2. Both files must live in a place `fortune` expects
 3. You should make the call to `fortune` on "login" from a config file
 
-Every time you open a new terminal window, it display a random Oblique Strategy
-before the prompt.
+It will display a random Oblique Strategy before the prompt in new Terminal
+windows.
 
 ## Instructions
 
