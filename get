@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -e
+
+successfully() {
+  $* || (echo "failed" 1>&2 && exit 1)
+}
+
+echo "Installing fortune via Homebrew ..."
+  successfully brew install fortune
+
+echo "Cloning oblique-fortunes ..."
+  successfully git clone git://github.com/mattonrails/oblique-fortunes.git
+
+echo "Installing fortune files ..."
+  successfully cd oblique-fortunes
+  successfully cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
+
+echo "Adding fortune to ~/.bash_profile ..."
+  echo "
+# added by oblique-fortunes
+if command fortune >/dev/null; then fortune oblique; fi
+" >> ~/.bash_profile
+  successfully source ~/.bash_profile >/dev/null
+
+echo "Done."

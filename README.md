@@ -18,24 +18,35 @@ windows.
 ## Examples
 
 - "Turn it upside down"
-- "Don't be afraid of things because they're easy to do"
 - "Accept advice"
 - "Not building a wall but making a brick"
 
 ## Instructions
 
-    brew install fortune
-    git clone git://github.com/mattonrails/oblique-fortunes.git
-    cd oblique-fortunes
-    cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
-    echo 'if command fortune >/dev/null; then fortune oblique; fi' >> ~/.bash_profile
+"Don't be afraid of things because they're easy to do"
+
+```bash
+bash < <(curl -s https://raw.github.com/mattonrails/oblique-fortunes/master/get)
+```
+
+**DIY**
+
+```bash
+brew install fortune
+git clone git://github.com/mattonrails/oblique-fortunes.git
+cd oblique-fortunes
+cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
+echo 'if command fortune >/dev/null; then fortune oblique; fi' >> ~/.bash_profile
+```
 
 ## Thanks
 
-To Brian Eno for the Oblique Strategies, and of course his music.
+To Brian Eno and Peter Schmidt for the Oblique Strategies.
 
 To @zeke for inspiration and providing [the strategies][3] in an easy to
 process format.
+
+To @thoughtbot for the `successfully()` function I use in `get`.
 
 [1]: http://en.wikipedia.org/wiki/Fortune_(Unix) 'Fortune (Unix)'
 [2]: http://en.wikipedia.org/wiki/Oblique_Strategies 'Oblique Strategies'
