@@ -38,5 +38,5 @@ To @zeke for inspiration and providing [the strategies][3] in an easy to
 process format.
 
 [1]: http://en.wikipedia.org/wiki/Fortune_(Unix) 'Fortune (Unix)'
-[2]: http://en.wikipedia.org/wiki/Oblique_Strategies 'Oblique_Strategies'
+[2]: http://en.wikipedia.org/wiki/Oblique_Strategies 'Oblique Strategies'
 [3]: https://github.com/zeke/oblique-strategies 'zeke/oblique-strategies'
