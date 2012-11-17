@@ -1,6 +1,6 @@
 # Oblique Fortunes
 
-Receive inspriration from Eno all day, whilst in the stark environs of the
+Receive inspiration from Eno all day, whilst in the stark environs of the
 command line!
 
 ## Say what?
