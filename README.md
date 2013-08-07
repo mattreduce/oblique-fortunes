@@ -23,6 +23,8 @@ windows.
 
 ## Instructions
 
+**OS X**
+
 "Don't be afraid of things because they're easy to do"
 
 ```bash
