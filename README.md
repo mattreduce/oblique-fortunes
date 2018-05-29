@@ -28,7 +28,7 @@ windows.
 "Don't be afraid of things because they're easy to do"
 
 ```bash
-bash < <(curl -s https://raw.github.com/mattonrails/oblique-fortunes/master/get)
+bash < <(curl -sL https://raw.github.com/mattonrails/oblique-fortunes/master/get)
 ```
 
 **DIY**
