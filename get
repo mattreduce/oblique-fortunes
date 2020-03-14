@@ -10,7 +10,7 @@ echo "Installing fortune via Homebrew ..."
   successfully brew install fortune
 
 echo "Cloning oblique-fortunes ..."
-  successfully git clone git://github.com/mattonrails/oblique-fortunes.git
+  successfully git clone https://github.com/mattreduce/oblique-fortunes.git
 
 echo "Installing fortune files ..."
   successfully cd oblique-fortunes
