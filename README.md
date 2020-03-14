@@ -28,14 +28,14 @@ windows.
 "Don't be afraid of things because they're easy to do"
 
 ```bash
-bash < <(curl -sL https://raw.github.com/mattonrails/oblique-fortunes/master/get)
+bash < <(curl -sL https://raw.github.com/mattreduce/oblique-fortunes/master/get)
 ```
 
 **DIY**
 
 ```bash
 brew install fortune
-git clone git://github.com/mattonrails/oblique-fortunes.git
+git clone https://github.com/mattreduce/oblique-fortunes.git
 cd oblique-fortunes
 cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
 echo 'if command fortune >/dev/null; then fortune oblique; fi' >> ~/.bash_profile
