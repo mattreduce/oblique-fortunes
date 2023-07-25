@@ -14,7 +14,7 @@ echo "Cloning oblique-fortunes ..."
 
 echo "Installing fortune files ..."
   successfully cd oblique-fortunes
-  successfully cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
+  successfully cp oblique* $(brew --cellar)/fortune/**/share/games/fortunes/
 
 echo "Adding fortune to ~/.bash_profile ..."
   echo "
