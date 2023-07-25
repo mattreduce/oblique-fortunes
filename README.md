@@ -37,7 +37,7 @@ bash < <(curl -sL https://raw.github.com/mattreduce/oblique-fortunes/master/get)
 brew install fortune
 git clone https://github.com/mattreduce/oblique-fortunes.git
 cd oblique-fortunes
-cp oblique* /usr/local/Cellar/fortune/**/share/games/fortunes/
+cp oblique* $(brew --cellar)/fortune/**/share/games/fortunes/
 echo 'if command fortune >/dev/null; then fortune oblique; fi' >> ~/.bash_profile
 ```
 
